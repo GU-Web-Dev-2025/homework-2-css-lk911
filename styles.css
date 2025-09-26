@@ -1,0 +1,141 @@
+/* 
+Name: Liam Kordsmeier
+Class: CPSC 332 Web Development
+Assignment: Homework 2 - CSS
+Last Modified: 9/25/25
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main-container {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.main-content {
+    flex: 2;
+    padding: 20px;
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.profile-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile-title {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.styled-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.styled-list {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+.styled-list li {
+    margin-bottom: 8px;
+}
+
+.skills-list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.section a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.section a:hover {
+    text-decoration: underline;
+}
+
+.hobby-image {
+    max-width: 200px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.section-header {
+    color: #333;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #4CAF50;
+    padding-bottom: 5px;
+}
